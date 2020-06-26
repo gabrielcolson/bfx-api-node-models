@@ -64,7 +64,7 @@
   },
   "dependencies": {
     "bfx-api-node-util": "git+https://github.com/gabrielcolson/bfx-api-node-util.git",
-    "bfx-hf-util": "^1.0.6",
+    "bfx-hf-util": "git+https://github.com/gabrielcolson/bfx-hf-util.git",
     "bluebird": "^3.7.2",
     "crc-32": "^1.2.0",
     "debug": "^4.1.1",
