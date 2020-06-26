@@ -40,7 +40,6 @@
   },
   "homepage": "http://bitfinexcom.github.io/bfx-api-node-models/",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-regenerator": "^6.26.0",
@@ -63,6 +62,11 @@
     "standard": "^14.1.0"
   },
   "dependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.3",
+    "@babel/plugin-transform-regenerator": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
     "bfx-api-node-util": "git+https://github.com/gabrielcolson/bfx-api-node-util.git",
     "bfx-hf-util": "git+https://github.com/gabrielcolson/bfx-hf-util.git",
     "bluebird": "^3.7.2",
